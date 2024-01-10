@@ -1,0 +1,9 @@
+{
+  "extends": "eslint-config-egg",
+  "root": true,
+  "rules": {
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "arrow-parens": ["error", "always"]
+  }
+}
