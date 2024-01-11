@@ -29,6 +29,11 @@ module.exports = (appInfo) => {
     },
     domainWhiteList: ["*"], // 配置白名单
   };
+
+  config.jwt = {
+    secret: "cpp",
+  };
+
   exports.mysql = {
     // 单数据库信息配置
     client: {
@@ -41,7 +46,7 @@ module.exports = (appInfo) => {
       // 密码
       password: "291003932Cpp@", // 初始化密码，没设置的可以不写
       // 数据库名
-      database: "cpp_test1", // 我们新建的数据库名称
+      database: "cost", // 我们新建的数据库名称
     },
     // 是否加载到 app 上，默认开启
     app: true,
