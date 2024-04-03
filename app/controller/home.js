@@ -29,7 +29,6 @@ class HomeController extends Controller {
   async add() {
     const { ctx } = this;
     const { title } = ctx.request.body;
-    console.log(title, "title");
     ctx.body = { title };
   }
   async addUser() {
