@@ -6,7 +6,7 @@ record account
 
 <!-- add docs here for user -->
 
-see [egg docs][egg] for more detail.
+see [egg docs]for more detail.
 
 ### Development
 
