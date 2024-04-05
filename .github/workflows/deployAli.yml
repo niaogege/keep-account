@@ -44,6 +44,7 @@ jobs:
             pwd
             echo $HOME
             npm -v
+            node -v
             npm install
             npm run dev
             echo $LASTSSH
