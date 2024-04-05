@@ -41,7 +41,7 @@ jobs:
             './*' => $TARGET_DIR/
           last_ssh: |-
             echo $HOME
-            pnpm -v
-            pnpm install
-            pnpm run dev
+            npm -v
+            npm install
+            npm run dev
             echo $LASTSSH
