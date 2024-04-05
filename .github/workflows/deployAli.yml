@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  TARGET_DIR: /www/web/keepAcount1
+  TARGET_DIR: /www/web/keepAccount
 
 jobs:
   deploy:
