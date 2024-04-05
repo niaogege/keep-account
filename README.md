@@ -36,7 +36,7 @@ npm stop
 
 ### 自动化部署失败
 
-> 咋就这么费事？
+> 咋就这么费事？7th deploy
 
 ```yml
 name: DeployAli
