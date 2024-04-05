@@ -37,6 +37,7 @@ npm stop
 ### 自动化部署失败
 
 > 咋就这么费事？7th deploy
+> [node js 环境变量配置](https://www.bilibili.com/read/cv8977472/)
 
 ```yml
 name: DeployAli
