@@ -23,8 +23,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }} # 版本
 
-      - run: npm install
-
       - name: Deploy Server
         uses: cross-the-world/ssh-scp-ssh-pipelines@latest
         env:
@@ -42,5 +40,6 @@ jobs:
           scp: |-
             '.' => $TARGET_DIR/
           last_ssh: |-
+            # npm install
             npm run dev
             echo $LASTSSH
