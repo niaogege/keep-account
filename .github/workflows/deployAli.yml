@@ -38,8 +38,8 @@ jobs:
             echo $WELCOME   
             mkdir -p $TARGET_DIR
           scp: |-
-            '.' => $TARGET_DIR/
+            './*' => $TARGET_DIR/
           last_ssh: |-
             # npm install
-            npm run dev
+            # npm run dev
             echo $LASTSSH
