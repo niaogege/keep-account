@@ -40,6 +40,7 @@ jobs:
           scp: |-
             './*' => $TARGET_DIR/
           last_ssh: |-
-            npm install
-            npm run dev
+            pnpm -v
+            pnpm install
+            pnpm run dev
             echo $LASTSSH
