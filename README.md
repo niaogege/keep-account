@@ -39,7 +39,7 @@ npm stop
 > [pnpm](https://pnpm.io/zh/installation)
 
 > 咋就这么费事？7th deploy
-> [node js 环境变量配置](https://www.bilibili.com/read/cv8977472/)
+> [node js 环境变量配置](https://www.bilibili.com/read/cv8977472/) > [nodejs 官方安装](https://nodejs.org/en/download/package-manager)
 
 ```yml
 name: DeployAli
