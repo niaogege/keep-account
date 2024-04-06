@@ -88,3 +88,5 @@ jobs:
             npm run dev
             echo $LASTSSH
 ```
+
+### 通过 nvm 下载不同版本的 node
